@@ -4,12 +4,12 @@ var map = new ol.Map({
     renderer: 'canvas',
     layers: layersList,
     view: new ol.View({
-         maxZoom: 28, minZoom: 1
+         maxZoom: 28, minZoom: 5
     })
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([549043.358041, 5822202.329834, 865267.366437, 6102944.379231], map.getSize());
+map.getView().fit([392329.972216, 5641097.295635, 1183541.347450, 6212546.947779], map.getSize());
 
 //full zooms only
 map.getView().setProperties({constrainResolution: true});
@@ -847,7 +847,7 @@ let measuring = false;
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_Communes_13,
+    layer: lyr_Communes_14,
     colName: 'libelle',
     zoom: 10,
     collapsed: true,
