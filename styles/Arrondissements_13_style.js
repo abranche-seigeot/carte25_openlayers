@@ -21,7 +21,7 @@ var style_Arrondissements_13 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(188,22,166,1.0)', lineDash: [2.7359999999999998,1.3679999999999999], lineCap: 'butt', lineJoin: 'miter', width: 1.3679999999999999}),fill: new ol.style.Fill({color: 'rgba(133,182,111,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(188,22,166,1.0)', lineDash: [4.18,2.09], lineCap: 'butt', lineJoin: 'miter', width: 2.09}),fill: new ol.style.Fill({color: 'rgba(133,182,111,0.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
