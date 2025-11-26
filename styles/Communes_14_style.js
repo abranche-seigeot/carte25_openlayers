@@ -21,7 +21,7 @@ var style_Communes_14 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(169,172,166,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.19}),fill: new ol.style.Fill({color: 'rgba(253,183,115,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(169,172,166,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.57}),fill: new ol.style.Fill({color: 'rgba(253,183,115,0.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
